@@ -23,7 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-.db
+*.db
 .env
 
-.db-*
+*.db-*

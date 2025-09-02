@@ -1,0 +1,169 @@
+/* harmonica layout (two side bars and center)
+ */
+.harmonica {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 90vh;
+}
+
+.calendar-container {
+    flex: 3;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sources, .outputs {
+    padding: 10px 5px;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction:  column;
+}
+
+h3 {
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 100px;
+}
+
+h4 {
+    margin: 0;
+}
+
+.source-settings {
+    padding: 0 10px;
+}
+
+.source-details {
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.login-btn {
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.login-btn:hover {
+    background: #1565c0;
+}
+
+.outputs-list {
+    margin-bottom: 1rem;
+}
+
+.output-info {
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+details {
+    margin-top: 1rem;
+}
+
+pre {
+    padding: 0.5rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-size: 0.95em;
+}
+
+dialog {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.source-dialog h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+input:not([type="checkbox"]) {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.source-dialog button {
+    background: #0b66a8;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.source-dialog button:hover {
+    background: #093f60;
+}
+
+.center-line {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.good-info:before {
+    content: "●";
+    color: lime;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+}
+
+.flex-column > * {
+    flex: 1;
+    max-width: unset;
+}
+
+.sync-info {
+    border-top: 1px solid currentColor;
+    padding-top: 10px;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
