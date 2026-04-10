@@ -1,6 +1,7 @@
 # Concal
 
-> [!NOTE] This tool was replaced by: [Bakaláři iCal connector](https://github.com/panjohnny/ical-bakalari)
+> [!NOTE]
+> This tool was replaced by: [Bakaláři iCal connector](https://github.com/panjohnny/ical-bakalari)
 
 _Connecting stuff to your calendar since today!_
 
